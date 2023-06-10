@@ -1,0 +1,25 @@
+Steps to reproduce best:
+Start AI voice clone on Kaggle.
+Format content like this: "\nThis is paragraph 1.\n***\nThis is paragraph 2, the last one.\n"
+Paste in the gradio link
+Set the following settings: 
+    Line Delimiter: "***"; 
+    Voice: "freeman"; 
+    voice chunks 0, 
+    preset standard, 
+    temperature 0.8 (or 0.7?)
+use notebook to download
+upload to adobe podcast enhance and download
+
+
+ways to possibly improve.
+    set seed
+    check temperature
+    fix bracket bug to do [end of sentence] 
+    try with [...end of sentence]
+    run input samples through adobe podcast enhance
+
+
+
+Other things to implement
+    fine tuned mayavoz or similar
