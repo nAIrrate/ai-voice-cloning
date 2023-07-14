@@ -2,6 +2,7 @@ git+https://github.com/openai/whisper.git
 
 more-itertools
 ffmpeg-python
+fastapi<=0.95.2
 gradio<=3.23.0
 music-tag
 voicefixer
